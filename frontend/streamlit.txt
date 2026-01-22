@@ -1,0 +1,5 @@
+Streamlit app.py
+   └── reads webcam frame
+       └── sends frame to MediaPipe FaceLandmarker
+           └── callback → process_landmarks()
+               └── returns instruction name
